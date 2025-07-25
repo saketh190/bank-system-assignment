@@ -1,10 +1,10 @@
 # Bank Loan System API
 
 ## 📌 Features Implemented
-- LEND: Issue a loan to a customer
-- PAYMENT: Accept EMI or Lump sum payment
-- LEDGER: View balance & EMI info for a loan
-- ACCOUNT OVERVIEW: List all loans for a customer
+- **LEND**: Issue a loan to a customer
+- **PAYMENT**: Accept EMI or Lump sum payment
+- **LEDGER**: View balance & EMI info for a loan
+- **ACCOUNT OVERVIEW**: List all loans for a customer
 
 ## 📊 Tech Stack
 - Node.js
@@ -15,11 +15,16 @@
 
 ## 📂 Prerequisites
 
-- Make sure Node.js is installed
+- Make sure **Node.js** is installed
 - Run `npm install` to install dependencies
-- Ensure `data/db.json` exists and is initialized as an empty array:
+- Ensure `data/db.json` exists and is initialized with:
 
 ```json
-[]
+{
+  "loans": []
+}
+```
+## ▶️ How to Run
 
-
+```bash
+npm start
